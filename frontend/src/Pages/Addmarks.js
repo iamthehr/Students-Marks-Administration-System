@@ -116,7 +116,8 @@ export const Addmarks = () => {
           flexDirection="column"
           justifyContent={"center"}
           alignItems={"center"}
-          width="30%"
+          // width="30%"
+          width={{ base: "90%", md: "60%", lg: "30%" }}
           marginTop={"1%"}
           bg="white"
           padding={"15px"}

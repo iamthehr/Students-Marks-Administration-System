@@ -96,7 +96,7 @@ function AddStudent() {
           flexDirection="column"
           justifyContent={"center"}
           alignItems={"center"}
-          width="30%"
+          width={{ base: "90%", md: "60%", lg: "30%" }}
           marginTop={"3%"}
           bg="white"
           padding={"15px"}
