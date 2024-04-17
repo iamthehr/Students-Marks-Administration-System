@@ -1,11 +1,4 @@
-Web Team Induction
-
-use userId as admin
-use password as admin
-
-semester 1 batch 2021
-(already existing data)
-or 
+Computer networks Project
 Add new data
 ![login page](https://user-images.githubusercontent.com/104431122/226088626-407ca7a0-1470-47a6-8333-1aad015b483f.jpg)
 ![Dashboard](https://user-images.githubusercontent.com/104431122/226088982-3d9e6c77-8707-4bfc-8b10-8d7900678f83.jpg)
