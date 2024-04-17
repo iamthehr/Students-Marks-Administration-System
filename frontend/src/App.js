@@ -11,7 +11,6 @@ import Authpage from "./Pages/Authpage";
 function App() {
   return (
     <div className="App">
-      {/* <Topbar /> */}
       <Routes>
         <Route path="/" element={<Authpage />} />
         <Route path="/Dashboard" element={<Dashboard />} />

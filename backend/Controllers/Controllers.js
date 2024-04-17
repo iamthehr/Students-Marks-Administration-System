@@ -29,7 +29,7 @@ const registerAdmin = expressAsyncHandler(async (req, res) => {
       _id: newAdmin._id,
       userId: newAdmin.userId,
       name: newAdmin.name,
-      token: generateToken(newAdmin._id),
+      // token: generateToken(newAdmin._id),
     });
   } else {
     res.status(400);
@@ -47,7 +47,7 @@ const loginAdmin = expressAsyncHandler(async (req, res) => {
       _id: seladmin._id,
       userId: seladmin.userId,
       name: seladmin.name,
-      token: generateToken(seladmin._id),
+      // token: generateToken(seladmin._id),
     });
   } else {
     throw new Error("Invalid User Id or password");
